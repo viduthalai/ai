@@ -1,0 +1,10 @@
+version: '2'
+services:
+  poppins:
+    build: .
+    env_file: poppins.properties
+    environment:
+      NODE_ENV: development
+    ports:
+      - 80:8000
+      - 443:8000

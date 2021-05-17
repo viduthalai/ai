@@ -1,0 +1,65 @@
+timestamps {
+
+  node {
+
+    // == Service-specific variables ==
+    //
+    // Things that need to be customized for a service should be here.
+
+    env.SERVICE = "poppins"
+    env.EMAIL_TO = "nbommu@care.com kjain@care.com"
+
+    // If you need to modify anything below this point, other than the
+    // "Build the app" and "Test the build" stages (which can be
+    // customized with appropriate things for this service), please let
+    // prodops know.
+
+    def commonFuncs = load "/var/lib/jenkins/common_functions.groovy"
+    commonFuncs.init()
+
+    try {
+
+      stage ('Set up the environment') {
+        commonFuncs.setup_env()
+      }
+
+      stage ('Set up the workspace') {
+        commonFuncs.setup_workspace()
+      }
+
+      stage ('Build the app') {
+        // Replace this with any steps needed to build this app!
+        println "No steps needed to build this app."
+      }
+
+      stage ('Test the build') {
+        // Replace this with any steps needed to test the build!
+        println "No steps needed to test this build."
+      }
+
+      stage ('Build the image') {
+        commonFuncs.build_image()
+      }
+
+      stage ('Push the image') {
+        env.RELEASE_VERSIONS_FROM_MASTER_ONLY = "true"
+        commonFuncs.push_image()
+      }
+ 
+      stage ('Autodeploy the stacks specified by this service') {
+        commonFuncs.autodeploy()
+      }
+
+    } //try
+
+    finally {
+      deleteDir()
+      step([$class: 'Mailer',
+            notifyEveryUnstableBuild: true,
+            recipients: "${EMAIL_TO}",
+            sendToIndividuals: true])
+    }
+
+  } //node
+
+} //timestamps

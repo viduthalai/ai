@@ -1,0 +1,22 @@
+node
+{  
+   stage('Checkout'){
+		// set build discarding strategy
+		properties properties: [[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '20', artifactNumToKeepStr: '30']]]
+
+		setEnv()
+		checkout scm
+	}
+
+   stage('Zip') {
+		echo "zipping the file"
+		sh "zip ${env.artifactName} **/*.json *.json"
+		archiveArtifacts "${env.artifactName}"
+   }
+}
+
+def setEnv(){
+    env.BUILD_NUM = VersionNumber projectStartDate: '', versionNumberString: '${BUILD_DATE_FORMATTED, "yyMMddHHmmss"}', versionPrefix: ''
+    env.BRANCH_LABEL = env.BRANCH_NAME
+    env.artifactName = "${env.BRANCH_LABEL}-#${env.BUILD_NUM}.zip"
+}

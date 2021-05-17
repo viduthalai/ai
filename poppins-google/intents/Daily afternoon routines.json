@@ -1,0 +1,38 @@
+{
+  "id": "eae2c8fa-f0f7-4be1-923f-e0ddba7c817c",
+  "name": "Daily afternoon routines",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "routineAfternoon",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f5921396-9084-4512-b72f-072870e15c7f",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544464091,
+  "fallbackIntent": false,
+  "events": []
+}

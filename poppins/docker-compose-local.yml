@@ -1,0 +1,8 @@
+version: '3'
+services:
+  poppins:
+    build:
+      context : .
+      dockerfile: Dockerlocalfile
+    ports:
+      - 8012:8000

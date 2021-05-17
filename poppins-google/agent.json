@@ -1,0 +1,73 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [
+      {
+        "intentId": "50b19202-9e1b-4a5b-93af-c8d48b6fd4bc",
+        "signInRequired": false
+      },
+      {
+        "intentId": "74f5d936-2831-430a-bd41-3b9be62c10f0",
+        "signInRequired": false
+      },
+      {
+        "intentId": "89fd5d3c-41c0-4f4a-ae48-d20c92ab7675",
+        "signInRequired": false
+      },
+      {
+        "intentId": "eae2c8fa-f0f7-4be1-923f-e0ddba7c817c",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ce6700c6-7b1d-4ac7-9716-70cd8b4c7dae",
+        "signInRequired": false
+      },
+      {
+        "intentId": "fe211061-994e-4540-85ec-2d22da640279",
+        "signInRequired": false
+      },
+      {
+        "intentId": "c0818db8-e500-49fc-860e-dd76f8044507",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "68ff5c47-e5f1-402c-8bd1-e7e18fd566e8"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "url": "https://uat39-poppins.nonprod.omni.carezen.net/assistant/webhook",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

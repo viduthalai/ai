@@ -1,0 +1,118 @@
+[
+  {
+    "id": "e422ed8f-36ee-40ca-92c9-64f5e5d59267",
+    "data": [
+      {
+        "text": "What should ",
+        "userDefined": false
+      },
+      {
+        "text": "Chole",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " eat for lunch?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544464091
+  },
+  {
+    "id": "77d836c9-cd03-4c8f-99af-8bc06f248a32",
+    "data": [
+      {
+        "text": "What should I make for lunch?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544464091
+  },
+  {
+    "id": "b74d75ce-ccdf-40f6-87c2-04cf824dbaee",
+    "data": [
+      {
+        "text": "What\u0027s for lunch?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544464091
+  },
+  {
+    "id": "527ca0f4-9e1c-4561-b26d-3448b466bb46",
+    "data": [
+      {
+        "text": "Tell me the afternoon schedule.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1544464091
+  },
+  {
+    "id": "8c2b2a50-cd9f-444b-8fb6-4701333f5c1b",
+    "data": [
+      {
+        "text": "What\u0027s on my afternoon schedule?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544464091
+  },
+  {
+    "id": "4a30041e-3535-4552-bf69-775ab16afbcb",
+    "data": [
+      {
+        "text": "What does ",
+        "userDefined": false
+      },
+      {
+        "text": "Chloe",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " do in the afternoon?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544464091
+  },
+  {
+    "id": "6b01a0f9-a5a7-42e2-8e36-dbe86e241d74",
+    "data": [
+      {
+        "text": "What is the afternoon schedule?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544464091
+  },
+  {
+    "id": "dd7d5121-b9eb-4d42-b658-bfebc9b220b8",
+    "data": [
+      {
+        "text": "What\u0027s my afternoon schedule?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542705017
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "fe211061-994e-4540-85ec-2d22da640279",
+  "name": "Where do I find",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "whereToFind",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "78c6a85e-f975-4b13-a6bd-cb8f2fc85af0",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544655538,
+  "fallbackIntent": false,
+  "events": []
+}

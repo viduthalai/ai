@@ -1,0 +1,33 @@
+{
+  "id": "4219c81c-6633-4c58-93dd-325b58c6d74d",
+  "parentId": "ab5eb421-dbb9-4946-a3c2-65711688328b",
+  "rootParentId": "ab5eb421-dbb9-4946-a3c2-65711688328b",
+  "name": "Default Fallback Intent - repeat",
+  "auto": true,
+  "contexts": [
+    "DefaultFallbackIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultFallbackIntent.DefaultFallbackIntent-repeat",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124810,
+  "fallbackIntent": false,
+  "events": []
+}

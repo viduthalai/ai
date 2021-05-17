@@ -1,0 +1,45 @@
+{
+  "name": "Poppins",
+  "version": "1.0.0",
+  "description": "https://wiki.carezen.local/pages/viewpage.action?pageId=29835368",
+  "main": "dist/app.js",
+  "author": "Vidu - vmani@care.com",
+  "scripts": {
+    "clean": "rimraf dist build",
+    "dev": "nodemon src/app.js --exec babel-node --presets env",
+    "build:prod": "babel src -d dist --source-maps inline --copy-files",
+    "build": "npm run clean && npm run build:prod",
+    "start": "NODE_ENV=production node ./dist/app.js",
+    "test": "karma start"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.4.1",
+    "dialogflow": "^0.7.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.14.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.9.0",
+    "es6-map": "^0.1.5",
+    "express-winston": "^3.0.1",
+    "jasmine-core": "^3.3.0",
+    "json-loader": "^0.5.7",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^3.0.5",
+    "metrics": "^0.1.19",
+    "nodemon": "^1.11.0",
+    "request": "^2.88.0",
+    "swagger-ui-express": "^4.0.1",
+    "webpack": "^1.13.1",
+    "winston": "^3.1.0"
+  }
+}

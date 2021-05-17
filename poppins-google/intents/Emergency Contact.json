@@ -1,0 +1,46 @@
+{
+  "id": "50b19202-9e1b-4a5b-93af-c8d48b6fd4bc",
+  "name": "Emergency Contact",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "emergencyContact",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d88c85bc-1bef-40e5-ab27-100baa0605ee",
+          "required": false,
+          "dataType": "@relationship",
+          "name": "relationship",
+          "value": "$relationship",
+          "isList": false
+        },
+        {
+          "id": "6eef9d2f-4504-41af-9a24-c2dcb84fb350",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544472261,
+  "fallbackIntent": false,
+  "events": []
+}

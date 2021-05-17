@@ -1,0 +1,238 @@
+[
+  {
+    "id": "a551bbbe-b752-426e-9cb9-7245e343d8c9",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "Chole",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": "\u0027s emergency contact?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544470424
+  },
+  {
+    "id": "dcfe7e27-e075-43cc-95fe-747f6a157aca",
+    "data": [
+      {
+        "text": "How do I contact ",
+        "userDefined": false
+      },
+      {
+        "text": "Chole",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544469703
+  },
+  {
+    "id": "6b9c5367-a497-4927-bc53-1c385e52b2d4",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "Chole",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": "\u0027s phone number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544469703
+  },
+  {
+    "id": "d031af68-9bf7-4f66-acc6-1a91e61a9a64",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "Chole",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": "\u0027s contact?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544469703
+  },
+  {
+    "id": "bc7e98d7-2c43-408a-9597-48a3c108c784",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "mother",
+        "alias": "relationship",
+        "meta": "@relationship",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s emergency contact?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544468297
+  },
+  {
+    "id": "b1fbe469-798b-485a-a3b1-930fcc26b790",
+    "data": [
+      {
+        "text": "How do I contact ",
+        "userDefined": false
+      },
+      {
+        "text": "mother",
+        "alias": "relationship",
+        "meta": "@relationship",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544468297
+  },
+  {
+    "id": "3296457b-54aa-48e2-8c35-2da56f74449c",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "mother",
+        "alias": "relationship",
+        "meta": "@relationship",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s\u0027s phone number?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544468297
+  },
+  {
+    "id": "f493566b-3447-433d-930a-1c790157fdea",
+    "data": [
+      {
+        "text": "What is ",
+        "userDefined": false
+      },
+      {
+        "text": "mother",
+        "alias": "relationship",
+        "meta": "@relationship",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s\u0027s contact?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544468297
+  },
+  {
+    "id": "615462af-a3bd-45f0-b75b-6916668004d8",
+    "data": [
+      {
+        "text": "Tell me the emergency contacts.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704134
+  },
+  {
+    "id": "b6a5c694-c2f2-4c7b-b8b3-982f392f1421",
+    "data": [
+      {
+        "text": "Who should I call when there\u0027s an emergency?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704134
+  },
+  {
+    "id": "00d4a544-2d43-4779-9f52-7c194495733e",
+    "data": [
+      {
+        "text": "Who should I call for an emergency?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704134
+  },
+  {
+    "id": "e755db60-5ab2-4957-99df-392bd2b4ed75",
+    "data": [
+      {
+        "text": "Who are the emergency contacts?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704134
+  },
+  {
+    "id": "86b40bc9-6c3d-41fb-8c13-d67b69e7cdbc",
+    "data": [
+      {
+        "text": "Who should I contact in case of emergency?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704134
+  }
+]

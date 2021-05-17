@@ -1,0 +1,29 @@
+{
+  "id": "c0818db8-e500-49fc-860e-dd76f8044507",
+  "name": "Important Notes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "importantDetails",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542781972,
+  "fallbackIntent": false,
+  "events": []
+}

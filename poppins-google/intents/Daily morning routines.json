@@ -1,0 +1,38 @@
+{
+  "id": "ce6700c6-7b1d-4ac7-9716-70cd8b4c7dae",
+  "name": "Daily morning routines",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "routineMorning",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "55c42169-cacd-46d1-b032-c4a6255d208b",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542805045,
+  "fallbackIntent": false,
+  "events": []
+}

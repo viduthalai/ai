@@ -1,0 +1,84 @@
+[
+  {
+    "id": "b3e2b138-1388-4b17-81cf-0baf614bbc0c",
+    "data": [
+      {
+        "text": "Tell me the morning routine.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704909
+  },
+  {
+    "id": "8c6eba91-c7d3-4b25-8e99-ad4ce806f6e9",
+    "data": [
+      {
+        "text": "Tell me the morning schedule.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704909
+  },
+  {
+    "id": "3ec47b69-b1b8-4a54-9eb4-8067ec490b2c",
+    "data": [
+      {
+        "text": "What\u0027s on my morning schedule?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704909
+  },
+  {
+    "id": "b3af26c3-3709-4cdd-aaca-b15a3484d76c",
+    "data": [
+      {
+        "text": "What does ",
+        "userDefined": false
+      },
+      {
+        "text": "Jennifer",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " do in the morning?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704909
+  },
+  {
+    "id": "05dac5fb-87f4-4229-812f-84785825c8e9",
+    "data": [
+      {
+        "text": "What is the morning schedule?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704909
+  },
+  {
+    "id": "21bcba97-8af8-4691-b1ee-68775a60f8e1",
+    "data": [
+      {
+        "text": "What\u0027s my morning schedule?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542704909
+  }
+]

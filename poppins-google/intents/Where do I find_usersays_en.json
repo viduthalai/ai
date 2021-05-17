@@ -1,0 +1,90 @@
+[
+  {
+    "id": "6288e3ad-8d6f-4e38-9e9b-11ea54f243ec",
+    "data": [
+      {
+        "text": "Where are the ",
+        "userDefined": false
+      },
+      {
+        "text": "diapers",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544655538
+  },
+  {
+    "id": "b6a1e759-5397-4e7e-a0b4-a9eeded385b3",
+    "data": [
+      {
+        "text": "Where is the ",
+        "userDefined": false
+      },
+      {
+        "text": "medicine",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544655538
+  },
+  {
+    "id": "587bc6d0-6334-43b6-9591-4ac4ab950776",
+    "data": [
+      {
+        "text": "Are there any ",
+        "userDefined": false
+      },
+      {
+        "text": "diaper",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544655538
+  },
+  {
+    "id": "9c54dae1-a3f9-4404-b212-d9ff237d7ee5",
+    "data": [
+      {
+        "text": "Where do I find the ",
+        "userDefined": false
+      },
+      {
+        "text": "diaper",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544655538
+  },
+  {
+    "id": "99e17f13-3adc-4b60-91a9-f0c5a54fd19c",
+    "data": [
+      {
+        "text": "Where do I find?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1544655538
+  }
+]

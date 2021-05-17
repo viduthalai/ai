@@ -1,0 +1,30 @@
+[
+  {
+    "value": "Mother",
+    "synonyms": [
+      "mom",
+      "mum",
+      "mummy",
+      "mam",
+      "mother",
+      "mommy",
+      "momma",
+      "madre",
+      "mama",
+      "parent"
+    ]
+  },
+  {
+    "value": "Father",
+    "synonyms": [
+      "dad",
+      "daddy",
+      "papa",
+      "father",
+      "baba",
+      "pop",
+      "padre",
+      "parent"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "89fd5d3c-41c0-4f4a-ae48-d20c92ab7675",
+  "name": "Daily bedtime routines",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "routineNight",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f3ef4d1d-2885-4fcc-b424-34e0cea27767",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1544820856,
+  "fallbackIntent": false,
+  "events": []
+}
